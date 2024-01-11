@@ -17,7 +17,9 @@ bool is_alpha(char c)
 
 void swap(char s[], int i, int j){
     char tmp;
-    tmp = s[i]; s[i] = s[j]; s[j] = tmp;
+    tmp = s[i]; 
+    s[i] = s[j]; 
+    s[j] = tmp;
 }
 void reverse(char s[], int sl)
 {
@@ -51,7 +53,7 @@ void sprev(char s[], int sl)
     }
 }
 
-void main()
+void main()  
 {
     char str[] = {'a','@','b','c','1'};
     int sl = strlen(str);
